@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website & Application Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <!-- ==============================================
+     header section start
+    ============================================= -->
+
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#Home"><img src="image/logo.png" class="logo" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#Servies" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#Servies" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Mobile Application Development
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#Servies">Android Application Development</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#Servies">IOS Application Development</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li> <a class="dropdown-item" href="#Servies">Search Engine Optimization</a> </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#Servies">Website Designing</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#Servies">Website Hosting</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Training</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Programing">Programing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contact Us</a>
+                    </li>
+                    <div
+                    class="d-flex align-items-center  justify-content-center justify-content-md-start justify-content-sm-start pl-4 mx-3 gap-1 socail-icon">
+                    <a href="#" class="face"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="twit"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="you"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" class="link"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- ==============================================
+     hero-section start
+    ============================================= -->
+    <section class="section hero-section" id="Home">
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/home3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>START CREATING YOUR</h5>
+                        <h1>App & Website</h1>
+                        <p>Join The 25,000+ Happy Customers :)</p>
+                        <button class="btn">Get Started Now!</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/home4.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h5>DO YOU NEED A NEW</h5>
+                        <h1>Mobile App & Website Design?</h1>
+                        <p>Check out our options and features.</p>
+                        <button class="btn">Get Started Now!</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- ==============================================
+     work-number-section start
+     ============================================= -->
+    <section class="section work-number-section">
+        <div class="container ">
+            <div class="row">
+                <h2 class="heading">Our Work is the most <span id="element"></span>. Website
+                    Development As Well As Mobile Development.
+                </h2>
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 d-flex align-items-center justify-content-center gap-3 gap-xl-2">
+                    <div class="work-number">
+                        <i class="fa-solid fa-user"></i>
+                        <h4 class="counter-numbers" data-number="750">0</h4>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 d-flex align-items-center justify-content-center gap-3 gap-xl-2">
+                    <div class="work-number">
+                        <i class="fa-solid fa-tv"></i>
+                        <h4 class="counter-numbers" data-number="225">0</h4>
+                        <p>Complete Projects</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 d-flex align-items-center justify-content-center gap-3 gap-xl-2">
+                    <div class="work-number">
+                        <i class="fa-solid fa-ticket"></i>
+                        <h4 class="counter-numbers" data-number="2500">0</h4>
+                        <p>Answered Tickets</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 d-flex align-items-center justify-content-center gap-3 gap-xl-2">
+                    <div class="work-number">
+                        <i class="fa-regular fa-clock"></i>
+                        <h4 class="counter-numbers" data-number="9240">0</h4>
+                        <p>Development Hours</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ==============================================
+     About-section start
+    ============================================= -->
+    <section class="section About-section" id="About">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h3 class="common-heading">about us</h3>
+                <p class="tital-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum inventore
+                    quos architecto dolorum at eum debitis enim cumque repellat. Quisquam at sequi iusto
+                    consequuntur obcaecati?</p>
+                <div class="col-12 col-lg-6 col-md-6">
+                    <div class="about-main">
+                        <img src="image/about1.jpg" class="about-img" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-md-12 d-flex align-items-start flex-column justify-content-center">
+                    <div class="about-detail">
+                        <h3 class="tital">welcome to our site</h3>
+                        <p class="text-sm-center text-md-center text-lg-start">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing
+                            elit. Repellendus, molestias modi aut
+                            sequi tempore debitis eaque neque, deserunt quis illum libero soluta architecto quas
+                            itaque
+                            dicta sapiente inventore animi nemo fugit dignissimos! Corporis ipsam hic inventore
+                            dolores
+                            optio, voluptate minus, magnam autem facere saepe libero?</p>
+
+                        <button class="about-btn">Read more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row about-main-second">
+                <div class="col-12 col-lg-4 col-md-12 col-sm-12 d-flex align-items-start justify-content-center">
+                    <div class="card">
+                        <img src="image/about3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Our Mission</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-12 col-sm-12 d-flex align-items-start justify-content-center">
+                    <div class="card">
+                        <img src="image/about2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Our Vision</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-12 col-sm-12 d-flex align-items-start justify-content-center">
+                    <div class="card">
+                        <img src="image/about4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Our Objective</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============================================
+    servies-section start
+    ============================================= -->
+    <section class="section Services-section" id="Service">
+        <div class="container">
+            <h3 class="common-heading">Services </h3>
+            <p class="tital-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum inventore
+                quos architecto dolorum at eum debitis enim cumque repellat. Quisquam at sequi iusto
+                consequuntur obcaecati?</p>
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4 servies-box">
+                    <ion-icon name="desktop-outline" class=" Service-icon"></ion-icon>
+                    <h4>Website Design</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolorum nihil, non fuga
+                        officia error."</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 servies-box">
+                    <ion-icon name="logo-android" class=" Service-icon"></ion-icon>
+                    <h4>Android Development</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolorum nihil, non fuga
+                        officia error."</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xxl-4 servies-box">
+                    <ion-icon name="logo-apple" class=" Service-icon"></ion-icon>
+                    <h4>ios Development</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolorum nihil, non fuga
+                        officia error."</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xxl-4 servies-box">
+                    <ion-icon name="globe-outline" class=" Service-icon"></ion-icon>
+                    <h4>search engines optimization</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolorum nihil, non fuga
+                        officia error."</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xxl-4 servies-box">
+                    <ion-icon name="newspaper-outline" class=" Service-icon"></ion-icon>
+                    <h4>social media marketing</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolorum nihil, non fuga
+                        officia error."</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xxl-4 servies-box">
+                    <ion-icon name="grid-outline" class=" Service-icon"></ion-icon>
+                    <h4>Hosting</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolorum nihil, non fuga
+                        officia error."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============================================
+    Programing-section start
+    ============================================= -->
+    <section class="section Programing-section" id="Programing">
+        <div class="container">
+            <h3 class="common-heading3">Programing</h3>
+            <p class="tital-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum inventore
+                quos architecto dolorum at eum debitis enim cumque repellat. Quisquam at sequi iusto
+                consequuntur obcaecati?</p>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 Programing-box">
+                    <h4>ui-ux design</h4>
+                    <div class="tools">
+                        <img src="image/html.png" alt="">
+                        <h5>HTML5</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/css.png" alt="">
+                        <h5>CSS3</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/figma.png" alt="">
+                        <h5>figma</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/adobe.png" alt="">
+                        <h5>adobe</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 Programing-box">
+                    <h4>Frontend skills</h4>
+                    <div class="tools">
+                        <img src="image/angularjs.png" alt="">
+                        <h5>Angular</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/react.png" alt="">
+                        <h5>React</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/flutter.png" alt="">
+                        <h5>Flutter</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/ionic.png" alt="">
+                        <h5>Ionic</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 Programing-box">
+                    <h4>backend skills</h4>
+                    <div class="tools">
+                        <img src="image/php.png" alt="">
+                        <h5>PHP</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/java.png" alt="">
+                        <h5>java</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/js.png" alt="">
+                        <h5>javaScript</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/nodejs.png" alt="">
+                        <h5>Node.js</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 Programing-box">
+                    <div>
+                        <h4>database skills</h4>
+                    </div>
+                    <div class="tools">
+                        <img src="image/mongodb.png" alt="">
+                        <h5>MongoDB</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/mysql.webp" alt="">
+                        <h5>MySQL</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/firebase.png" alt="">
+                        <h5>Firebase </h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/nosql.jpg" alt="">
+                        <h5>NoSQL</h5>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 Programing-box">
+                    <div>
+                        <h4>source code tools</h4>
+                    </div>
+                    <div class="tools">
+                        <img src="image/GitHub.png" alt="">
+                        <h5>GitHub</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/gitlab.png" alt="">
+                        <h5>gitlab</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/bitbucket.png" alt="">
+                        <h5>gitbucket</h5>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 Programing-box">
+                    <h4>Cloud computing</h4>
+                    <div class="tools">
+                        <img src="image/AWS.png" alt="">
+                        <h5>AWS</h5>
+                    </div>
+                    <div class="tools">
+                        <img src="image/Google-Cloud.png" alt="">
+                        <h5>GoogleCloud</h5>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ==============================================
+     testimonial section start
+    ============================================= -->
+    <section class="section section-testimonial">
+        <div class="container">
+            <div class="testimonial mySwiper">
+                <div class="testi-content swiper-wrapper">
+                    <div class="slide swiper-slide">
+                        <img src="image/about1.jpg" alt="" class="image">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error impedit repudiandae nam sit
+                            maxime
+                            repellendus, magnam praesentium illum molestias iure, ipsum eum nulla earum corporis
+                            doloribus!
+                            Sint quasi pariatur mollitia</p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span class="name">jon boyle</span>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="image/about2.jpg" alt="" class="image">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error impedit repudiandae nam sit
+                            maxime
+                            repellendus, magnam praesentium illum molestias iure, ipsum eum nulla earum corporis
+                            doloribus!
+                            Sint quasi pariatur mollitia</p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span class="name">jon boyle</span>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="image/about3.jpg" alt="" class="image">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error impedit repudiandae nam sit
+                            maxime
+                            repellendus, magnam praesentium illum molestias iure, ipsum eum nulla earum corporis
+                            doloribus!
+                            Sint quasi pariatur mollitia</p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span class="name">jon boyle</span>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="image/about1.jpg" alt="" class="image">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error impedit repudiandae nam sit
+                            maxime
+                            repellendus, magnam praesentium illum molestias iure, ipsum eum nulla earum corporis
+                            doloribus!
+                            Sint quasi pariatur mollitia</p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span class="name">jon boyle</span>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="image/about2.jpg" alt="" class="image">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error impedit repudiandae nam sit
+                            maxime
+                            repellendus, magnam praesentium illum molestias iure, ipsum eum nulla earum corporis
+                            doloribus!
+                            Sint quasi pariatur mollitia</p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span class="name">jon boyle</span>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="image/about3.jpg" alt="" class="image">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error impedit repudiandae nam sit
+                            maxime
+                            repellendus, magnam praesentium illum molestias iure, ipsum eum nulla earum corporis
+                            doloribus!
+                            Sint quasi pariatur mollitia</p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span class="name">jon boyle</span>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="image/about4.jpg" alt="" class="image">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error impedit repudiandae nam sit
+                            maxime
+                            repellendus, magnam praesentium illum molestias iure, ipsum eum nulla earum corporis
+                            doloribus!
+                            Sint quasi pariatur mollitia</p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span class="name">jon boyle</span>
+                    </div>
+                </div>
+                <div class="swiper-button-next" style="color: #0099cc;"></div>
+                <div class="swiper-button-prev" style="color: #0099cc;"></div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============================================
+     footer section start
+    ============================================= -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">about us</a></li>
+                        <li><a href="#Service">our services</a></li>
+                        <li><a href="#Programing">Programing</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Business Hours</h4>
+                    <ul>
+                        <li><a href="#">Monday - Friday - 9am to 5pm</a></li>
+                        <li><a href="#">Saturday - 9am to 2pm</a></li>
+                        <li><a href="#">Sunday - Closed</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="#">+91 95122 04086</a></li>
+                        <li><a href="#">info@ismartsolutions.in</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#" class="face"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="twit"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="you"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="link"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div>
+                <p>© Copyright 2017 - 2024. All Rights Reserved.</p>
+            </div>
+            <div><a href="#Home" class="footer-btn"><i class="fa-solid fa-angle-up"></i></a></div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <script src="bootstrap/swiper/swiper.js"></script> -->
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
